@@ -3,6 +3,7 @@ package com.telusko.SpringAnno;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+// Spring core annotations
 public class App {
     public static void main( String[] args ) {
     	ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
